@@ -1,0 +1,107 @@
+{
+    "accounts": [
+      {
+        "id": "1",
+        "name": "Mpesa_KES_1",
+        "currency": "KES",
+        "balance": 75000
+      },
+      {
+        "id": "2",
+        "name": "Bank_KES_2",
+        "currency": "KES",
+        "balance": 75000
+      },
+      {
+        "id": "3",
+        "name": "Mpesa_USD_1",
+        "currency": "USD",
+        "balance": 2000
+      },
+      {
+        "id": "4",
+        "name": "Bank_USD_2",
+        "currency": "USD",
+        "balance": 7000
+      },
+      {
+        "id": "5",
+        "name": "Bank_NGN_1",
+        "currency": "NGN",
+        "balance": 900000
+      },
+      {
+        "id": "6",
+        "name": "Mpesa_NGN_1",
+        "currency": "NGN",
+        "balance": 800000
+      },
+      {
+        "id": "7",
+        "name": "Bank_KES_3",
+        "currency": "KES",
+        "balance": 30000
+      },
+      {
+        "id": "8",
+        "name": "Bank_USD_3",
+        "currency": "USD",
+        "balance": 12000
+      },
+      {
+        "id": "9",
+        "name": "Bank_NGN_2",
+        "currency": "NGN",
+        "balance": 450000
+      },
+      {
+        "id": "10",
+        "name": "Mpesa_KES_2",
+        "currency": "KES",
+        "balance": 60000
+      }
+    ],
+    "transactions": [
+      {
+        "id": "2",
+        "from": "Mpesa_KES_1",
+        "to": "Bank_KES_3",
+        "amount": 10000,
+        "currency": "KES",
+        "note": "Payout balancing",
+        "date": "2025-06-25T12:00:00Z"
+      },
+      {
+        "id": "bbe4",
+        "from": "Mpesa_KES_1",
+        "to": "Bank_KES_2",
+        "amount": 30000,
+        "note": "Does it work?",
+        "date": "2025-06-27T16:07:07.061Z"
+      },
+      {
+        "id": "c699",
+        "from": "Mpesa_KES_1",
+        "to": "Bank_KES_2",
+        "amount": 20000,
+        "note": "Savings",
+        "date": "2025-06-27T16:41:50.544Z"
+      },
+      {
+        "id": "e822",
+        "from": "Mpesa_KES_1",
+        "to": "Bank_KES_2",
+        "amount": 10000,
+        "note": "savings",
+        "date": "2025-06-28T06:12:55.348Z"
+      },
+      {
+        "id": "a9fa",
+        "from": "Bank_KES_2",
+        "to": "Mpesa_KES_1",
+        "amount": 5000,
+        "note": "Transfer today",
+        "date": "2025-06-28T06:29:13.285Z"
+      }
+    ]
+  }
